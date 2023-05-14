@@ -1,0 +1,73 @@
+body {
+  background: #aa4b6b; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #3b8d99,
+    #6b6b83,
+    #aa4b6b
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #3b8d99,
+    #6b6b83,
+    #aa4b6b
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+h1 {
+  position: absolute;
+  width: 430px;
+  height: 94px;
+  left: 514px;
+  top: 15px;
+
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 60px;
+  line-height: 78px;
+
+  color: #322f2f;
+}
+
+p {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 200;
+  font-size: 32px;
+  line-height: 29px;
+  /* identical to box height */
+
+  color: #ffffff;
+}
+
+div {
+  /*div*/
+
+  position: absolute;
+  width: 433px;
+  height: 602px;
+  left: 515px;
+  top: 120px;
+}
+
+input {
+  width: 300px;
+  height: 25px;
+  background: #d9d9d9;
+  border: 2px solid transparent;
+}
+
+button {
+  position: absolute;
+  width: 310px;
+  height: 67px;
+
+  background: linear-gradient(91.23deg, #ff6b00 1.66%, #ff0000 99.24%);
+  border-radius: 6px;
+  border: 0.01px solid transparent;
+  color: #000000;
+}
+
+b {
+  font-size: 32px;
+}
